@@ -151,6 +151,8 @@
       ctx.fill();
 
       ctx.fillText(`Speed: ${speed.toFixed(2)}`, 0, 10);
+      ctx.fillText(`dx: ${(dx / length).toFixed(2)}`, 0, 20);
+      ctx.fillText(`dy: ${(dy / length).toFixed(2)}`, 0, 30);
 
       requestAnimationFrame(draw);
     }

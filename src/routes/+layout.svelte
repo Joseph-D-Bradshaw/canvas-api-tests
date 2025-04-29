@@ -9,6 +9,9 @@
     "/03-seek-the-mouse",
     "/04-flee-the-mouse",
     "/05-arrival-behaviour",
+    "/06-rotation",
+    "/07-rotation-with-atan2",
+    "/08-from-memory-test",
   ];
 </script>
 
@@ -24,6 +27,9 @@
 
 <style>
   nav {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.4rem 1rem;
     padding: 1rem 0.8rem;
   }
 
@@ -35,10 +41,6 @@
     border-radius: 5px;
     padding: 0.5rem 0.8rem;
     text-transform: capitalize;
-  }
-
-  nav a + a:not(:first-child) {
-    margin-left: 1em;
   }
 
   .active {
