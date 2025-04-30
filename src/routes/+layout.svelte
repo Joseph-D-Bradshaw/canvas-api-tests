@@ -12,6 +12,7 @@
     "/06-rotation",
     "/07-rotation-with-atan2",
     "/08-from-memory-test",
+    "/09-drag-and-drop",
   ];
 </script>
 
